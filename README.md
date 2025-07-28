@@ -1,1 +1,1 @@
-this is web tech summer 2014-2015 semester lab task repository
+this is web tech summer 2024-2025 semester lab task repository
