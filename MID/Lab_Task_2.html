@@ -5,11 +5,43 @@
             <title>Wasi-U-Islam</title>
             <h1 style = "color : black;">Bank Management System</h1>
             <h2 style = "color : black;">Your Trusted Financial Partner</h2>
-            </center>
-            <h3>Customer Registration Form</h3>
-
+        </center>
+        <style>
+            body
+            {
+                background-color: lightsteelblue;
+            }
+            h1,h2
+            {
+                colour : black
+            }
+            table
+            {
+                background-color: azure;
+                border: 1px solid black;
+                margin : auto ;
+                padding: 20px;
+            }
+            input[type="submit"],input[type="reset"]
+            {
+                padding:5px;
+                color:black;
+                background-color:greenyellow;
+                cursor:pointer;
+            }
+            input[type="reset"]
+            {
+                position: sticky;
+                padding:5px;
+                color:black;
+                background-color:bisque;
+                cursor:pointer;
+            }
+        </style>
             <table>
                 <tr>
+                    <td><b>Customer Registration Form</b></td>
+                </tr>
                     <td>Full Name :</td><td><input type ="text"></td>
                     <tr>
                     <td>Date of Birth :</td><td><input type ="date"></td>
@@ -33,11 +65,13 @@
                     <tr>
                     <td>National ID (NID) :</td><td><input type ="text"></td>
                     <tr>
-                    <td>Set Passwrod :</td><td><input type ="text"></td>
+                    <td>Set Password :</td><td><input type ="text"></td>
                     <tr>
                     <td>Upload ID Proof :</td><td><input type = "file"></td>
                     <tr>
-                    <td><input type ="submit"></td>  
+                    <td><input type="checkbox">I agree to the terms and conditions</td>
+                    <tr>
+                    <td><input type ="submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type ="reset"></td>   
                     </tr>        
             </table>
         </body>
