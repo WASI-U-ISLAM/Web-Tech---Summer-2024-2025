@@ -1,0 +1,36 @@
+body 
+{
+  background-color: gainsboro;
+}
+form
+    {
+      background-color: azure;
+      border: 1px solid black;
+      width: 20%;
+      margin : auto;
+      padding: 50px;
+      position: center;
+    }
+h1,h2{
+    text-align: center;
+}
+ input[type="Submit"]
+            {
+                position: sticky;
+                padding:5px;
+                color:black;
+                background-color:bisque;
+                cursor:pointer;
+            }
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
